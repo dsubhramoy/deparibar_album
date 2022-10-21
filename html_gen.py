@@ -1,6 +1,7 @@
 v = [
-    { "cat":"Green","description":"Prasanta Kumar De | Renuka De | 50 Years Wedding Anniversary Celebration | Part II", "link":"https://youtu.be/yefauNhzn5Y","image":"img/50.png" },
-    { "cat":"Green","description":"Basanta Utsab 2022", "link":"https://youtu.be/Co3i0Jtl_sc","image":"img/bu2022.jpg" }]
+    { "cat":"Green","description":"Bijaya Sammiloni 2022 | Part I", "link":"https://youtu.be/WhakBSGX9Uw","image":"img/dp221.JPG" },
+    { "cat":"Green","description":"Bijaya Sammiloni 2022 | Part II", "link":"https://youtu.be/rhTp1580tnI","image":"img/dp222.JPG" },
+    { "cat":"Green","description":"Sougata Ipsa Marriage (Sindhri)", "link":"https://youtu.be/tddOFpF4924","image":"img/IS.JPG" }]
 
 for item in v:
     clr = item['cat']
