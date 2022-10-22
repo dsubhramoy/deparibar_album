@@ -1,7 +1,8 @@
 v = [
-    { "cat":"Green","description":"Bijaya Sammiloni 2022 | Part I", "link":"https://youtu.be/WhakBSGX9Uw","image":"img/dp221.JPG" },
-    { "cat":"Green","description":"Bijaya Sammiloni 2022 | Part II", "link":"https://youtu.be/rhTp1580tnI","image":"img/dp222.JPG" },
-    { "cat":"Green","description":"Sougata Ipsa Marriage (Sindhri)", "link":"https://youtu.be/tddOFpF4924","image":"img/IS.JPG" }]
+    { "cat":"Green","description":"Bijaya Sammiloni 2020", "link":"https://youtu.be/Et5bGzjZKhA","image":"img/dp20.JPG" },
+    { "cat":"Green","description":"Bijaya Sammiloni 2019", "link":"https://youtu.be/V5AucnMtkvk","image":"img/dp19.JPG" },
+    { "cat":"Green","description":"Bijaya Sammiloni 2018", "link":"https://youtu.be/ZiY6jc9FxIc","image":"img/dp18.png" },
+    { "cat":"Red","description":"Dipankar Rimi Marriage (Katwa)", "link":"https://youtu.be/JsDWkX09miE","image":"img/DR.JPG" }]
 
 for item in v:
     clr = item['cat']
