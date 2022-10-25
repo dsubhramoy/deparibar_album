@@ -1,8 +1,6 @@
 v = [
-    { "cat":"Green","description":"Bijaya Sammiloni 2020", "link":"https://youtu.be/Et5bGzjZKhA","image":"img/dp20.JPG" },
-    { "cat":"Green","description":"Bijaya Sammiloni 2019", "link":"https://youtu.be/V5AucnMtkvk","image":"img/dp19.JPG" },
-    { "cat":"Green","description":"Bijaya Sammiloni 2018", "link":"https://youtu.be/ZiY6jc9FxIc","image":"img/dp18.png" },
-    { "cat":"Red","description":"Dipankar Rimi Marriage (Katwa)", "link":"https://youtu.be/JsDWkX09miE","image":"img/DR.JPG" }]
+    { "cat":"Green","description":"Ipsa Sougata Marriage (Slideshow)", "link":"https://youtu.be/KUkxvJ61hyA","image":"img/placeholder.png" },
+    { "cat":"Green","description":"Ipsa Ushasi 25 Yrs Birthday Celebration", "link":"https://youtu.be/KRNiRlYu2hk","image":"img/placeholder.png" }]
 
 for item in v:
     clr = item['cat']
