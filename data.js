@@ -13,17 +13,17 @@ let videos = '{"vid":['+
 '{"cat":"jatrapala","description":  "KrishnaDasi Padma ", "link":"https://youtu.be/Bhv1lJJJ32U","image":"img/placeholder.png"},'+
 '{"cat":"jatrapala","description":  "Sat Takar Santan ", "link":"https://youtu.be/m_oPwpCEEm0","image":"img/placeholder.png"},'+
 '{"cat":"marriage","description":  "Abhishek Tandrima Marriage (Bohar) ", "link":"https://youtu.be/gSyQjwOsgPMith","image":"img/AT.jpg"},'+
+'{"cat":"marriage","description":  "Abhishek Tandrima Marriage (Sardanga) ", "link":"https://youtu.be/UB_zKSXNhC8","image":"img/TA.jpg"},'+
 '{"cat":"marriage","description":  "Dipankar Rimi Marriage (Katwa) ", "link":"https://youtu.be/JsDWkX09miE","image":"img/DR.JPG"},'+
-'{"cat":"marriage","description":  "Dipankar Rimi Marriage (Slideshow ", "link":"https://youtu.be/hJLSi507NJg","image":"img/DR.JPG"},'+
+'{"cat":"marriage","description":  "Dipankar Rimi Marriage (Slideshow) ", "link":"https://youtu.be/hJLSi507NJg","image":"img/DR.JPG"},'+
 '{"cat":"marriage","description":  "Dipankar Rimi Marriage(Home videos) ", "link":"https://youtu.be/lvWLZuLijK0","image":"img/DRH.JPG"},'+
 '{"cat":"marriage","description":  "Ipsa Sougata Marriage (Kolkata) ", "link":"https://youtu.be/Yuwy35stZo0","image":"img/IS.JPG"},'+
+'{"cat":"marriage","description":  "Ipsa Sougata Marriage (Sindhri) ", "link":"https://youtu.be/tddOFpF4924","image":"img/IS.JPG"},'+
 '{"cat":"marriage","description":  "Ipsa Sougata Marriage (Slideshow) ", "link":"https://youtu.be/KUkxvJ61hyA","image":"img/IS.JPG"},'+
 '{"cat":"marriage","description":  "Jhallika Subham Marriage (Katwa) ", "link":"https://youtu.be/d9xRZVMenpo","image":"img/JS.jpg"},'+
 '{"cat":"marriage","description":  "Jhallika Subham Marriage (Simulia) ", "link":"https://youtu.be/cU-1fD9Twh4","image":"img/JS.jpg"},'+
 '{"cat":"marriage","description":  "Krishna Manab Marriage (Katwa) ", "link":"https://youtu.be/gpY_7hHHPx4","image":"img/KM.jpg"},'+
 '{"cat":"marriage","description":  "Krishna Manab Marriage (Matiari) ", "link":"https://youtu.be/KpfKk4Ev5m8","image":"img/KM.jpg"},'+
-'{"cat":"marriage","description":  "Sougata Ipsa Marriage (Sindhri) ", "link":"https://youtu.be/tddOFpF4924","image":"img/IS.JPG"},'+
-'{"cat":"marriage","description":  "Tandrima_Abhishek Marriage (Sardanga) ", "link":"https://youtu.be/UB_zKSXNhC8","image":"img/TA.jpg"},'+
 '{"cat":"marriage","description":  "Ushasi Nirveek Marriage (Cinematic) ", "link":"https://youtu.be/4BmjgZYaBZI","image":"img/UNcinematic.jpg"},'+
 '{"cat":"marriage","description":  "Ushasi Nirveek Marriage Full(Bohar) ", "link":"https://youtu.be/W8AblVh6Z6E","image":"img/UN.jpg"},'+
 '{"cat":"others","description":  "Basanta Utsab 2022 ", "link":"https://youtu.be/TGrZyKRfXWo","image":"img/bu2022.jpg"},'+
