@@ -188,15 +188,17 @@ http://www.tooplate.com/view/2086-multi-color
         
         <script type="text/javascript">
 
-                var myObj=JSON.parse(category);
+                var myObj=JSON.parse(videos);
                 let text = ""
                 let clr="Red"
-                for (let x in myObj.cate) {
-                    clr=myObj.cate[x].clr;
-                    
-                    text+= "<div class=\"grid-item\">\n<figure class=\"effect-bubba\"><img src=\"" + myObj.cate[x].image + "\"alt=\"Open link\" class=\"img-fluid tm-img\">"
-                    text+=  "<figcaption><p class=\"tm-figure-description\">"+myObj.cate[x].description +"</p>"
-                    text+= "</figcaption></figure><a style=\"color:"+clr+"; font-weight: bold;\"  target=\"_blank\" href=\""+myObj.cate[x].link+"\">"+myObj.cate[x].description+"</a></div>"
+                for (let x in myObj.vid) {
+                    if(myObj.vid[x].cat=="family function"){
+                        clr="Yellow";
+
+                        text+= "<div class=\"grid-item\">\n<figure class=\"effect-bubba\"><img src=\"" + myObj.vid[x].image + "\"alt=\"Open link\" class=\"img-fluid tm-img\">"
+                        text+=  "<figcaption><p class=\"tm-figure-description\">"+myObj.vid[x].description +"</p>"
+                        text+= "</figcaption></figure><a style=\"color:"+clr+"; font-weight: bold;\"  target=\"_blank\" href=\""+myObj.vid[x].link+"\">"+myObj.vid[x].description+"</a></div>"
+                    }
                 } 
 
                 document.getElementById("myAlbum").innerHTML = text;
@@ -210,25 +212,15 @@ http://www.tooplate.com/view/2086-multi-color
                 let cnt = 1;
                 for (let x in myObj.vid) {
                     //alert(myObj.vid[x].cat);
-                    if(myObj.vid[x].cat=="marriage"){
-                        clr1="Red";
-                    }
+                    
                     if(myObj.vid[x].cat=="family function"){
                         clr1="yellow";
-                    }
-                    if(myObj.vid[x].cat=="durgapuja"){
-                        clr1="Green";
-                    }
-                    if(myObj.vid[x].cat=="jatrapala"){
-                        clr1="Black";
-                    }
-                    if(myObj.vid[x].cat=="others"){
-                        clr1="Blue";
-                    }
                     
-                    text1+= "<a style=\"color:" +clr1+"; font-weight: bold;\" target=\"_blank\" href=\""+ myObj.vid[x].link+"\">"+cnt+") "+myObj.vid[x].description+"</a></br>";
-                    cnt++;                    
-                    } 
+                    
+                        text1+= "<a style=\"color:" +clr1+"; font-weight: bold;\" target=\"_blank\" href=\""+ myObj.vid[x].link+"\">"+cnt+") "+myObj.vid[x].description+"</a></br>";
+                        cnt++;                    
+                        } 
+                    }
                 //alert(text1);
                 document.getElementById("myList").innerHTML = text1;
         </script>
