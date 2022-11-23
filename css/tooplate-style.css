@@ -76,7 +76,7 @@ a:focus {
 	    justify-content: space-between;
 	padding-left: 10px;
 	padding-right: 10px;
-	background-color: rgba(255,255,255,0.7);
+	background-color: rgba(0, 0, 0, 0.916);
 	overflow: auto;
 }
 
@@ -94,7 +94,7 @@ a:focus {
 button:focus { outline: none; }
 
 .cd-slider-nav a.navbar-brand {
-	font-size: 5rem;
+	font-weight: bold;
 	padding-top: 0;
 	padding-bottom: 0;
 	display: -ms-flexbox;
@@ -104,7 +104,7 @@ button:focus { outline: none; }
 	-ms-flex-pack: center;
 	    justify-content: center;
 	width: auto;
-	color: rgba(52, 123, 231, 0.996);
+	color: rgba(255, 255, 255, 0.996);
 }
 
 .cd-slider-nav a { text-transform: capitalize; }
@@ -114,7 +114,7 @@ button:focus { outline: none; }
 .cd-slider-nav a,
 .navbar-nav .nav-link {
 	background-color: transparent;
-	color: black;
+	color: rgb(211, 203, 203);
     display: table-cell;
     font-weight: 400;
     font-size: 1em;
@@ -137,8 +137,8 @@ button:focus { outline: none; }
 }
 
 /* Background & menu colors */
-.cd-hero-slider li:nth-of-type(1) { background-color: rgba(56, 182, 230, 0.62); }
-.cd-hero-slider li:nth-of-type(2) { background-color: rgba(237, 84, 76, 0.62); }
+.cd-hero-slider li:nth-of-type(1) { background-color: rgba(165, 139, 9, 0.62); }
+.cd-hero-slider li:nth-of-type(2) { background-color: rgba(254, 254, 254, 0.62); }
 .cd-hero-slider li:nth-of-type(3) { background-color: rgba(234, 163, 25, 0.62); }
 .cd-hero-slider li:nth-of-type(4) { background-color: rgba(22, 181, 163, 0.62); }
 .cd-hero-slider li:nth-of-type(5) { background-color: rgba(68, 127, 202, 0.62); }
@@ -146,14 +146,14 @@ button:focus { outline: none; }
 .cd-slider-nav .nav-item:nth-of-type(1).selected .nav-link,
 .cd-slider-nav .nav-item:nth-of-type(1) .nav-link:hover,
 .cd-slider-nav .nav-item:nth-of-type(1) .nav-link:focus {	
-	background-color: #38b6e6;
+	background-color: rgba(165, 139, 9, 0.62);
 }
 
 .cd-slider-nav .nav-item:nth-of-type(2).selected .nav-link,
 .cd-slider-nav .nav-item:nth-of-type(2) .nav-link:hover,
 .cd-slider-nav .nav-item:nth-of-type(2) .nav-link:focus {
 			
-	background-color: #ed544c;
+	background-color: rgba(254, 254, 254, 0.62);
 }
 
 .cd-slider-nav .nav-item:nth-of-type(3).selected .nav-link,
@@ -211,8 +211,8 @@ button:focus { outline: none; }
 
 /* footer */
 .tm-social-link {
-	background-color: rgba(255,255,255,0.40);
-    color: black;
+	background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
     display: inline-block;
     width: 35px;
     height: 35px;
@@ -400,6 +400,7 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 	padding-right: 1px;
 	float: left;
 	width: 100%;
+	text-align: center;
 }
 
 .grid-item:last-child { margin-bottom: 0; }
@@ -447,13 +448,14 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 }
 
 .tm-copyright-text {
-	background-color: rgba(0, 0, 0, 0.3);
-	color: white;
-    display: inline-block;
+	background-color: rgba(226, 209, 209, 0.3);
+	color: rgb(204, 37, 37);
+    text-align: center;
     font-size: 1.8rem;
     font-weight: 400;
     padding: 5px 12px;
     width: 100%;
+	float: center;
 }
 
 .tm-footer { padding: 50px 11px 20px; }
