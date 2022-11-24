@@ -31,7 +31,7 @@ let videos = '{"vid":['+
 
 let category = '{"cate":['+
 '{"clr":"rgb(255, 1, 90)","description":  "Marriage Videos ", "link":"./marriage.html","image":"img/icons/BM.jpg"},'+
-'{"clr":"rgb(255, 1, 90)","description":  "Bijoya Sammiloni ", "link":"./durgapujo.html","image":"img/icons/DP.png"},'+
-'{"clr":"rgb(255, 1, 90)","description":  "Family Function ", "link":"./family_function.html","image":"img/icons/FF.jpg"},'+
-'{"clr":"rgb(255, 1, 90)","description":  "Jatrapala ", "link":"./jatra.html","image":"img/icons/JP.jpg"},'+
-'{"clr":"rgb(255, 1, 90)","description":  "Others ", "link":"./others.html","image":"img/icons/P.png"}]}'
+'{"clr":"rgb(255, 1, 90)","description":  "Bijoya Sammiloni ", "link":"./durgapujo.html","image":"img/icons/DP.jpg"},'+
+'{"clr":"rgb(255, 1, 90)","description":  "Family Function ", "link":"./family_function.html","image":"img/icons/FFF.jpg"},'+
+'{"clr":"rgb(255, 1, 90)","description":  "Jatrapala ", "link":"./jatra.html","image":"img/icons/JPP.jpg"},'+
+'{"clr":"rgb(255, 1, 90)","description":  "Others ", "link":"./others.html","image":"img/icons/O.jpg"}]}'
